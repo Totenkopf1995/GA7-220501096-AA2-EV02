@@ -1,0 +1,24 @@
+<!-- WebContent/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Producto</title>
+</head>
+<body>
+<h1>Registrar Producto</h1>
+<form action="productoServlet" method="POST">
+    <label for="nombreProducto">Nombre del Producto:</label>
+    <input type="text" id="nombreProducto" name="nombreProducto" required><br>
+
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" name="precio" required><br>
+
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" required><br>
+
+    <input type="submit" value="Registrar">
+</form>
+</body>
+</html>
